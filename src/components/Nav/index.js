@@ -8,13 +8,14 @@ function Nav() {
 
     return (
         <header>
-            <h2>
-                <a href="/">
-                    <span role="img" aria-label="home"> </span> HOME
-                </a>
-            </h2>
+     
             <nav>
                 <ul className="flex-row">
+                    <li className='mx-2'>
+                <a href="/">
+                    HOME
+                        </a>
+                        </li>
                     <li className='mx-2'>
                         <a href="#about">
                             ABOUT ME
@@ -26,13 +27,13 @@ function Nav() {
                         </a>
                     </li>
                     <li className='mx-2'>
-                        <a href="#portfolio">
+                        <a href=".portfolio">
                             PORTFOLIO
                         </a>
                     </li>
                     
                     <li className="mx-2">
-                        <a href="#contact">
+                        <a href="#contact-form">
                             Contact
                             </a>
                     </li>
