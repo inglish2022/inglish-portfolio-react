@@ -11,3 +11,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  position: fixed;
+  left: 0;
+  bottom: 100;
+  width: 100%;
+  background-color:  rgb(135, 118, 231);
+  color: white;
+  text-align: left;
+  border-top: 3px solid  rgb(135, 118, 231);
+}
+
+.nav ul  {
+  flex-direction: row;
+display: inline-block;
+}
+
+
+
+
+/* .my-5  {
+  background-image: ("../../assets/cover/mandalacover.png"); 
+  background-color: #cccccc; 
+  min-height: 1300px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}  */
+/* .contact-form {
+  border: 1px white solid;
+  background-color:  #fffdd0;
+  width: 25%;
+  margin-left: 35%;
+  margin-top: 20px;
+ } */
+
+ .profile {
+  width: 200px;
+  height: auto;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+ .footer-div {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:  rgb(135, 118, 231);
+  color: white;
+  text-align: center;
+  border-top: 3px solid  rgb(135, 118, 231);
+}

@@ -4,7 +4,7 @@ import Nav from "../Nav";
 function Header() {
 
     return (
-      <header className="flex-row px-1">
+      <header className="header">
         <div className="logo">
           <h1>
           <a href="/">Inglish Foust</a>
