@@ -1,14 +1,13 @@
-import React from 'react'
-import coverImage from "../../assets/cover/mandalacover.png";
+import React from 'react';
 import Profile from "../../assets/profile.jpg"
 import { FaGithub, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
 
+
 function About() {
+
   return (
-    <section className="my-5">
-      <h1 id="about">Who am I?</h1>
-      <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
-      <div>
+    <section className="about">
+         <div>
         <img src={Profile} alt="profile" className="profile float-left"></img>
       </div>
       <div className="mt-3">

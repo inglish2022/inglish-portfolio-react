@@ -10,7 +10,7 @@ function Header() {
           <a href="/">Inglish Foust</a>
           </h1>
         </div>
-        <Nav></Nav>
+        <Nav />
       </header>
     );
   }

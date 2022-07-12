@@ -6,22 +6,23 @@ import CodeQuiz from "../../assets/codequiz.png";
 import RunBuddy from "../../assets/runbuddy.png";
 import WeatherDashboard from "../../assets/weatherdashboard.png";
 import TechBlog from "../../assets/techblog.png";
-
-
+import TravelPlanner from "../../assets/travelplanner.png";
+import NoteTaker from "../../assets/notetaker.png"
+import WorkDaySched from "../../assets/workdaysched.png"
+import BudgetTracker from "../../assets/budgettracker.png"
 
 function Portfolio() {
   // const { name, description } = currentCategory;
   return (
-    <section class="portfolio">
+    <section className="portfolio">
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
-        <div class="col">
-          <div class="card">
+ 
+          <div className="card">
             <img src = {TravelBlog}
               alt="travelblog"
-              class="card-img-top"
+              className="card-img-top"
             />
-            <div class="card-body">
+            <div className="card-body">
 
               <a href="https://github.com/inglish2022/One-Mile-At-A-Time" target="_blank" rel="noreferrer">
                 <button>GitHub</button>
@@ -31,104 +32,151 @@ function Portfolio() {
               </a>
             </div>
           </div>
-        </div>
-        </div>
-
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
-        <div class="col">
-          <div class="card">
+    
+          <div className="card">
             <img src = {IamIngish}
               alt="travelblog"
-              class="card-img-top"
+              className="card-img-top"
             />
-            <div class="card-body">
+            <div className="card-body">
 
-              <a href="https://github.com/inglish2022/Iaminglish" target="_blank" rel="noreferrer">
+              <a href="https://github.com/inglish2022/iaminglish" target="_blank" rel="noreferrer">
                 <button>GitHub</button>
               </a>
-              <a href=" https://one-mile-at-a-time.herokuapp.com/" target="_blank" rel="noreferrer">
+              <a href=" https://inglish2022.github.io/iaminglish/" target="_blank" rel="noreferrer">
                 <button>Website</button>
               </a>
             </div>
           </div>
-        </div>
-        </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
-        <div class="col">
-          <div class="card">
+
+          <div className="card">
             <img src = {CodeQuiz}
-              alt="travelblog"
-              class="card-img-top"
+              alt="codequiz"
+              className="card-img-top"
             />
-            <div class="card-body">
+            <div className="card-body">
 
-              <a href="https://github.com/inglish2022/CodeQuiz" target="_blank" rel="noreferrer">
+              <a href="https://github.com/inglish2022/codeQuizProject1" target="_blank" rel="noreferrer">
                 <button>GitHub</button>
               </a>
-              <a href=" https://one-mile-at-a-time.herokuapp.com/" target="_blank" rel="noreferrer">
+              <a href="https://inglish2022.github.io/codeQuizProject1/" target="_blank" rel="noreferrer">
                 <button>Website</button>
               </a>
             </div>
           </div>
-        </div>
-        </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
-        <div class="col">
-          <div class="card">
+
+          <div className="card">
             <img src = {RunBuddy}
-              alt="travelblog"
-              class="card-img-top"
+              alt="runbuddy"
+              className="card-img-top"
             />
-            <div class="card-body">
+            <div className="card-body">
 
-              <a href="https://github.com/inglish2022/RunBuddy" target="_blank" rel="noreferrer">
+              <a href="https://github.com/inglish2022/run-buddy" target="_blank" rel="noreferrer">
                 <button>GitHub</button>
               </a>
-              <a href=" https://one-mile-at-a-time.herokuapp.com/" target="_blank" rel="noreferrer">
+              <a href=" https://lernantino.github.io/run-buddy/" target="_blank" rel="noreferrer">
                 <button>Website</button>
               </a>
             </div>
           </div>
-        </div>
-        </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
-        <div class="col">
-          <div class="card">
+
+          <div className="card">
             <img src = {WeatherDashboard}
-              alt="travelblog"
-              class="card-img-top"
+              alt="weatherdashboard"
+              className="card-img-top"
             />
-            <div class="card-body">
+            <div className="card-body">
 
-              <a href="https://github.com/inglish2022/WeatherDashboard" target="_blank" rel="noreferrer">
+              <a href="https://github.com/inglish2022/Weather-Dashboard1" target="_blank" rel="noreferrer">
                 <button>GitHub</button>
               </a>
-              <a href=" https://one-mile-at-a-time.herokuapp.com/" target="_blank" rel="noreferrer">
+              <a href=" https://inglish2022.github.io/Weather-Dashboard1/" target="_blank" rel="noreferrer">
                 <button>Website</button>
               </a>
             </div>
           </div>
-        </div>
-        </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
-        <div class="col">
-          <div class="card">
+ 
+          <div className="card">
             <img src = {TechBlog}
-              alt="travelblog"
-              class="card-img-top"
+              alt="techblog"
+              className="card-img-top"
             />
-            <div class="card-body">
+            <div className="card-body">
 
-              <a href="https://github.com/inglish2022/TechBlog" target="_blank" rel="noreferrer">
+              <a href="https://github.com/inglish2022/Tech-Blog-MVC" target="_blank" rel="noreferrer">
                 <button>GitHub</button>
               </a>
-              <a href=" https://one-mile-at-a-time.herokuapp.com/" target="_blank" rel="noreferrer">
+              <a href=" https://nameless-hollows-41057.herokuapp.com/" target="_blank" rel="noreferrer">
                 <button>Website</button>
               </a>
             </div>
           </div>
-        </div>
-        </div>
+
+          <div className="card">
+            <img src = {TravelPlanner}
+              alt="travelplanner"
+              className="card-img-top"
+            />
+            <div className="card-body">
+
+              <a href="https://github.com/mhiss11/Project-1-" target="_blank" rel="noreferrer">
+                <button>GitHub</button>
+              </a>
+              <a href="https://mhiss11.github.io/Project-1-/" target="_blank" rel="noreferrer">
+                <button>Website</button>
+              </a>
+            </div>
+          </div>
+
+          <div className="card">
+            <img src = {WorkDaySched}
+              alt="workdayscheduler"
+              className="card-img-top"
+            />
+            <div className="card-body">
+
+              <a href="https://github.com/inglish2022/workDayScheduler" target="_blank" rel="noreferrer">
+                <button>GitHub</button>
+              </a>
+              <a href="  https://inglish2022.github.io/workDayScheduler/" target="_blank" rel="noreferrer">
+                <button>Website</button>
+              </a>
+            </div>
+          </div>
+
+          <div className="card">
+            <img src = {BudgetTracker}
+              alt="budgettracker"
+              className="card-img-top"
+            />
+            <div className="card-body">
+
+              <a href="https://github.com/inglish2022/Budget-Tracker-PWA" target="_blank" rel="noreferrer">
+                <button>GitHub</button>
+              </a>
+              <a href="https://budget-tracker-pwa-inglish.herokuapp.com/" target="_blank" rel="noreferrer">
+                <button>Website</button>
+              </a>
+            </div>
+          </div>
+
+          <div className="card">
+            <img src = {NoteTaker}
+              alt="notetaker"
+              className="card-img-top"
+            />
+            <div className="card-body">
+
+              <a href="https://github.com/inglish2022/Note-Taker" target="_blank" rel="noreferrer">
+                <button>GitHub</button>
+              </a>
+              <a href="https://tranquil-waters-62939.herokuapp.com/" target="_blank" rel="noreferrer">
+                <button>Website</button>
+              </a>
+            </div>
+          </div>
+
     </section>
   );
 }

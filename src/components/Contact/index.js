@@ -15,7 +15,7 @@ function ContactForm() {
         console.log(formState);
     }
 
-    const handleChange = (e) => {
+    function handleChange(e) {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             if (!isValid) {
@@ -35,7 +35,7 @@ function ContactForm() {
 
     // JSX
     return (
-        <section>
+        <section className = 'contact'>
             <h1>Contact me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>

@@ -7,15 +7,14 @@ function Nav() {
 
 
     return (
-        <header>
      
             <nav>
                 <ul className="flex-row">
-                    <li className='mx-2'>
+                    {/* <li className='mx-2'>
                 <a href="/">
                     HOME
                         </a>
-                        </li>
+                        </li> */}
                     <li className='mx-2'>
                         <a href="#about">
                             ABOUT ME
@@ -40,7 +39,6 @@ function Nav() {
                     
                     </ul>
                   </nav>
-                </header>
               );
             }
 

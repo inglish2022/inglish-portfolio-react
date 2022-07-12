@@ -13,14 +13,14 @@ code {
 }
 
 .header {
-  position: fixed;
+  /* position: fixed;
   left: 0;
-  bottom: 100;
+  bottom: 100; */
   width: 100%;
-  background-color:  rgb(135, 118, 231);
+  background-color:  #e5bbe5;
   color: white;
   text-align: left;
-  border-top: 3px solid  rgb(135, 118, 231);
+  border-top: 3px solid #e5bbe5;
 }
 
 .nav ul  {
@@ -29,29 +29,38 @@ display: inline-block;
 }
 
 
-
-
-/* .my-5  {
-  background-image: ("../../assets/cover/mandalacover.png"); 
-  background-color: #cccccc; 
-  min-height: 1300px; 
+.my-5  {
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover; 
-}  */
-/* .contact-form {
-  border: 1px white solid;
-  background-color:  #fffdd0;
+  
+} 
+
+.about  {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+h1  {
+    text-align: center;
+    background-color: #e5bbe5;
+}
+#contact-form {
+  border: 3px solid  rgb(135, 118, 231);
+  background-color:  #e5bbe5;
   width: 25%;
   margin-left: 35%;
   margin-top: 20px;
- } */
+  margin-bottom: 30px;
+ }
 
  .profile {
   width: 200px;
   height: auto;
   padding: 15px;
   border-radius: 50%;
+  border-width: 10px;
+  background-color: #e5bbe5;
+  border: 3px solid  rgb(135, 118, 231);
 }
 
  .footer-div {
@@ -59,7 +68,7 @@ display: inline-block;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color:  rgb(135, 118, 231);
+  background-color:  #e5bbe5;
   
   text-align: center;
   border-top: 3px solid  rgb(135, 118, 231);
@@ -70,9 +79,7 @@ footer ul {
   flex-wrap: wrap;
   justify-content: space-between; 
   align-items: flex-end;
-  margin-right: 30%;
-  margin-left: 30%;
-  margin-top: 1%;
+  margin: 1px 500px 0px 500px;
 }
 
 li {
@@ -88,7 +95,7 @@ nav  li {
 }
 
 textarea {
-	width: 600px;
+	width: 450px;
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
@@ -119,38 +126,64 @@ textarea {
   justify-content: flex-end;
 }
 
-/* .card  {
+.portfolio  {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: auto;
+  padding: 20px 0 60px 0;
+  justify-content: space-around;
+}
+
+.card  {
+  border-style: double;
+  border-width: 10px;
+  background-color: #e5bbe5;
+  border: 3px solid  rgb(135, 118, 231);
   border-radius: 5px;
-	max-width: 100%;
-	margin-right: 100px;
-  margin-left: 100px;
+	margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 50px;
 	padding: 15px;
-	width: 60px;
-} */
-
-.mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
+	max-width: 450px;
 }
 
-.mx-2 {
-  margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
+.card-img-top  {
+  max-width: 450px;
 }
 
-.my-1 {
-  margin-top: var(--spacing-one);
-  margin-bottom: var(--spacing-one);
+.mt-3  {
+  border-style: double;
+  border-width: 10px;
+  border-color: rgb(135, 118, 231);;
+  background-color: #e5bbe5;
+  border-radius: 5px;
+	margin-right: 20px;
+  margin-left: 720px;
+	padding: 15px;
+	max-width: 650px;
+
 }
 
-.my-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
+.mt-5  {
+  border-style: double;
+  border-width: 10px;
+  border-color: rgb(135, 118, 231);;
+  background-color: #e5bbe5;
+  border-radius: 5px;
+	margin-right: 20px;
+  margin-left: 220px;
+	padding: 15px;
+	max-width: 650px;
 }
 
-.my-5 {
-  margin-top: var(--spacing-five);
-  margin-bottom: var(--spacing-five);
+.linkedin  {
+  display: inline;
 }
+
+
+
+
 
 
