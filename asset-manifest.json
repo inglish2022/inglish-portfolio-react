@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/inglish-portfolio-react/static/css/main.68cd5191.css",
+    "main.js": "/inglish-portfolio-react/static/js/main.ed1b42f4.js",
+    "static/js/787.566b869a.chunk.js": "/inglish-portfolio-react/static/js/787.566b869a.chunk.js",
+    "static/media/mandalacover.png": "/inglish-portfolio-react/static/media/mandalacover.30f428a88b05af78fe4d.png",
+    "static/media/runbuddy.png": "/inglish-portfolio-react/static/media/runbuddy.f26e810ae707ed843d3a.png",
+    "static/media/travelblog.png": "/inglish-portfolio-react/static/media/travelblog.0164e46965337041db84.png",
+    "static/media/portfolio.png": "/inglish-portfolio-react/static/media/portfolio.9b89061b378bd1796bae.png",
+    "static/media/workdaysched.png": "/inglish-portfolio-react/static/media/workdaysched.e51df554a4d7b1dca981.png",
+    "static/media/codequiz.png": "/inglish-portfolio-react/static/media/codequiz.57adf534da77cb5621a7.png",
+    "static/media/techblog.png": "/inglish-portfolio-react/static/media/techblog.0ff4ef81f5412b9eaf94.png",
+    "static/media/weatherdashboard.png": "/inglish-portfolio-react/static/media/weatherdashboard.b9c5137cd32b326be242.png",
+    "static/media/budgettracker.png": "/inglish-portfolio-react/static/media/budgettracker.01852cf8c834ee02f072.png",
+    "static/media/profile.jpg": "/inglish-portfolio-react/static/media/profile.d28c3111220cef543aa3.jpg",
+    "static/media/travelplanner.png": "/inglish-portfolio-react/static/media/travelplanner.bced797913551a837266.png",
+    "static/media/notetaker.png": "/inglish-portfolio-react/static/media/notetaker.21d50e9a3f700a38fe48.png",
+    "index.html": "/inglish-portfolio-react/index.html",
+    "main.68cd5191.css.map": "/inglish-portfolio-react/static/css/main.68cd5191.css.map",
+    "main.ed1b42f4.js.map": "/inglish-portfolio-react/static/js/main.ed1b42f4.js.map",
+    "787.566b869a.chunk.js.map": "/inglish-portfolio-react/static/js/787.566b869a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68cd5191.css",
+    "static/js/main.ed1b42f4.js"
+  ]
+}
