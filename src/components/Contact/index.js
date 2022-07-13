@@ -9,28 +9,34 @@ function ContactForm() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        if (!errorMessage) {
-            setFormState({ ...formState, [e.target.name]: e.target.value });
-        }
         console.log(formState);
-    }
+      }
 
     function handleChange(e) {
+        setFormState({...formState, [e.target.name]: e.target.value })
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
+            console.log(isValid);
+            // isValid conditional statement
             if (!isValid) {
                 setErrorMessage('Your email is invalid.');
-            } else {
+              } else {
                 setErrorMessage('');
-            }
-        } else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
+              }
             } else {
-                setErrorMessage('');
-            }
-        }
-    };
+                if (!e.target.value.length) {
+                  setErrorMessage(`${e.target.name} is required.`);
+                } else {
+                  setErrorMessage('');
+                }
+                if (!errorMessage) {
+                    setFormState({ ...formState, [e.target.name]: e.target.value });
+                  }
+              
+          }  
+      }
+      
+    //   console.log(formState);
 
 
     // JSX
@@ -44,7 +50,7 @@ function ContactForm() {
                 </div>
                 <div>
                     <label htmlFor="email">Email address:</label>
-                    <input type="email" defaultValue={email} name="email" onChange={handleChange} />
+                    <input type="email" defaultValue={email}  name="email" onChange={handleChange}  />
                 </div>
                 <div>
                     <label htmlFor="message">Message:</label>
