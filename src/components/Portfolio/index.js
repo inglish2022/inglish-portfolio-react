@@ -14,7 +14,7 @@ import BudgetTracker from "../../assets/budgettracker.png"
 function Portfolio() {
   // const { name, description } = currentCategory;
   return (
-    <section className="portfolio">
+    <section className="portfolio" id="portfolio">
 
  
           <div className="card">

@@ -10,11 +10,12 @@ function Nav() {
      
             <nav>
                 <ul className="flex-row">
-                    {/* <li className='mx-2'>
-                <a href="/">
-                    HOME
+                    {/* <li className='inglish' id ='title'>
+                        <a href="#about">
+                            INGLISH FOUST
                         </a>
-                        </li> */}
+                    </li> */}
+             
                     <li className='mx-2'>
                         <a href="#about">
                             ABOUT ME
@@ -26,7 +27,7 @@ function Nav() {
                         </a>
                     </li>
                     <li className='mx-2'>
-                        <a href=".portfolio">
+                        <a href="#portfolio">
                             PORTFOLIO
                         </a>
                     </li>

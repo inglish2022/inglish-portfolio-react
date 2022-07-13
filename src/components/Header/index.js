@@ -3,16 +3,18 @@ import Nav from "../Nav";
 
 function Header() {
 
-    return (
-      <header className="header">
-        <div className="logo">
-          <h1>
+  return (
+    <header className="header">
+      <div className='logo'>
+        <h1>
           <a href="/">Inglish Foust</a>
-          </h1>
-        </div>
+        </h1>
+      </div>
+      <div>
         <Nav />
-      </header>
-    );
-  }
-  
-  export default Header;
+      </div>
+    </header>
+  );
+}
+
+export default Header;

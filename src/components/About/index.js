@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
 function About() {
 
   return (
-    <section className="about">
+    <section className="about" id="about">
          <div>
         <img src={Profile} alt="profile" className="profile float-left"></img>
       </div>
