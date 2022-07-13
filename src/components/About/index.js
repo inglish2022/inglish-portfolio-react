@@ -1,6 +1,6 @@
 import React from 'react';
 import Profile from "../../assets/profile.jpg"
-import { FaGithub, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
+// import { FaGithub, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
 
 
 function About() {
@@ -18,11 +18,12 @@ function About() {
                 build great web applications. I will be proficient in many technoligies, including JavaScript, Node,
                 SQL, MongoDB, and React.</p>
 
-        <p>
+        {/* <p>
           I am interested in learning about new opportunities and can
           be reached
           through this portfolio, by
           email:
+          </p>
           
           <address>
                     1816 S 28th Street <br />
@@ -46,11 +47,11 @@ function About() {
             <li>
               <FaInstagramSquare style={{color: 'black', fontSize: '50px'}} />
             </li>
-          </a>
+          </a> */}
          
           Cheers!
 
-        </p>
+        
       </div>
     </section>
   );
