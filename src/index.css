@@ -6,6 +6,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("assets/cover/mandalacover.png");
+  background-position: center;
+  background-size: 500px ;
+  /* background-attachment: fixed; */
 }
 
 code {
@@ -14,22 +18,33 @@ code {
 }
 
 .header {
-  
+  position: static;
   width: 100%;
+  height: 150px;
   background-color:  #e5bbe5;
-  color: white;
-  text-align: left;
+  /* color: white; */
+  /* text-align: left; */
   border-top: 3px solid #e5bbe5;
-  display: inline-block;
+  /* display: inline-block; */
+  padding: 10px 16px;
+  height: 50px;
+
 }
 
-.logo  {
+
+
+header div  {
   text-align: left;
   justify-content: left;
   margin-left: 10px;
+  margin-top: auto;
   font-size: 20px;
-  display: flex;
+  position: sticky;
+
+
 }
+
+
 
 .nav ul  {
   flex-direction: row;
@@ -38,18 +53,18 @@ display: inline-block;
 }
 
 
-.my-5  {
+/* .my-5  {
   background-position: center;
   background-size: cover; 
   background-repeat: no-repeat;
-
   
-  
-} 
+ 
+}  */
 
 .about  {
   display: flex;
   margin-bottom: 550px;
+  margin-top: 120px;
   
 }
 

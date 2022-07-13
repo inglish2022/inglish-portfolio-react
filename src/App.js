@@ -5,7 +5,7 @@ import Portfolio from "./components/Portfolio";
 import Footer from './components/Footer';
 import Header from './components/Header';
 import ContactForm from './components/Contact';
-import coverImage from "./assets/cover/mandalacover.png";
+// import coverImage from "./assets/cover/mandalacover.png";
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
     <div>
  
       <Header />
-      <main className='my-5' style={{ backgroundImage: `url(${coverImage})`}}>
+      <main className='my-5' >
 
         
           <About />
