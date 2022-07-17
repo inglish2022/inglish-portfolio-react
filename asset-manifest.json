@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inglish-portfolio-react/static/css/main.68cd5191.css",
-    "main.js": "/inglish-portfolio-react/static/js/main.ed1b42f4.js",
+    "main.css": "/inglish-portfolio-react/static/css/main.cee48f28.css",
+    "main.js": "/inglish-portfolio-react/static/js/main.a4a6ef3e.js",
     "static/js/787.566b869a.chunk.js": "/inglish-portfolio-react/static/js/787.566b869a.chunk.js",
     "static/media/mandalacover.png": "/inglish-portfolio-react/static/media/mandalacover.30f428a88b05af78fe4d.png",
     "static/media/runbuddy.png": "/inglish-portfolio-react/static/media/runbuddy.f26e810ae707ed843d3a.png",
@@ -16,12 +16,12 @@
     "static/media/travelplanner.png": "/inglish-portfolio-react/static/media/travelplanner.bced797913551a837266.png",
     "static/media/notetaker.png": "/inglish-portfolio-react/static/media/notetaker.21d50e9a3f700a38fe48.png",
     "index.html": "/inglish-portfolio-react/index.html",
-    "main.68cd5191.css.map": "/inglish-portfolio-react/static/css/main.68cd5191.css.map",
-    "main.ed1b42f4.js.map": "/inglish-portfolio-react/static/js/main.ed1b42f4.js.map",
+    "main.cee48f28.css.map": "/inglish-portfolio-react/static/css/main.cee48f28.css.map",
+    "main.a4a6ef3e.js.map": "/inglish-portfolio-react/static/js/main.a4a6ef3e.js.map",
     "787.566b869a.chunk.js.map": "/inglish-portfolio-react/static/js/787.566b869a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68cd5191.css",
-    "static/js/main.ed1b42f4.js"
+    "static/css/main.cee48f28.css",
+    "static/js/main.a4a6ef3e.js"
   ]
 }
