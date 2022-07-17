@@ -16,7 +16,7 @@ return(
       <ul className="flex-row">
         <div>
           <li>
-            <a href="https://github.com/inglish2022">
+            <a href="https://github.com/inglish2022" className='name-logo'>
               INGLISH FOUST
               
             </a>
@@ -39,7 +39,7 @@ return(
             </a>
           </li>
           <li className="mx-2">
-            <a href="#contact-form">
+            <a href="#myContact">
               CONTACT
             </a>
           </li>

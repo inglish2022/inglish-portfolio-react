@@ -1,3 +1,11 @@
+# GitHub Repository
+https://github.com/inglish2022/inglish-portfolio-react
+
+# Deployed app
+https://inglish2022.github.io/inglish-portfolio-react/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

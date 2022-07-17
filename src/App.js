@@ -20,9 +20,11 @@ function App() {
 
         
           <About />
+          
           <Portfolio />
 
          <ContactForm />
+
          <Resume />
 
       </main>
