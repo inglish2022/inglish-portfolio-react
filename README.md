@@ -4,6 +4,8 @@ https://github.com/inglish2022/inglish-portfolio-react
 # Deployed app
 http://inglish2022.github.io/inglish-portfolio-react/
 
+![Screenshot of app](./src/assets/Screenshot.png)
+
 
 
 # Getting Started with Create React App
