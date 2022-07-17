@@ -2,7 +2,7 @@
 https://github.com/inglish2022/inglish-portfolio-react
 
 # Deployed app
-https://inglish2022.github.io/inglish-portfolio-react/
+http://inglish2022.github.io/inglish-portfolio-react/
 
 
 
