@@ -12,7 +12,7 @@ function About() {
       </div>
       <div className="mt-3">
 
-        <p>I am working towards the end of my journey as a developer. I have worked with front-end and back-end developing. I do not have many
+        <p>I am working towards the end of my journey in school at Butler University as a web developer. I have worked with front-end and back-end developing. I do not have many
                 projects under my belt but I will work very hard at any project I start.</p>
         <p> By the end of my coding bootcamp I will have the practical, technical skills that will enable me to
                 build great web applications. I will be proficient in many technoligies, including JavaScript, Node,

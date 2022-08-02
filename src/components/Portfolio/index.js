@@ -10,13 +10,31 @@ import TravelPlanner from "../../assets/travelplanner.png";
 import NoteTaker from "../../assets/notetaker.png"
 import WorkDaySched from "../../assets/workdaysched.png"
 import BudgetTracker from "../../assets/budgettracker.png"
+import GlassFiller from "../../assets/glassfiller.jpg"
 
 function Portfolio() {
+
   // const { name, description } = currentCategory;
   return (
     <section className="portfolio" id="portfolio">
       <h2 className="top-title">Portfolio</h2>
       <hr></hr>
+
+      <div className="card">
+        <img src={GlassFiller}
+          alt="glassfiller2.0"
+          className="card-img-top"
+        />
+        <div className="card-body">
+
+          <a href="https://github.com/Caleeeb/glassfiller-2.0" target="_blank" rel="noreferrer">
+            <button>GitHub</button>
+          </a>
+          <a href=" " target="_blank" rel="noreferrer">
+            <button>Website</button>
+          </a>
+        </div>
+      </div>
 
       <div className="card">
         <img src={TravelBlog}
